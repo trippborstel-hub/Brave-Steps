@@ -5,7 +5,7 @@ import React, { useState, useEffect, useRef, useCallback } from "react";
 const STORAGE_KEY = "brave-steps-data";
 
 const DEFAULT_EXPOSURES = [
-  { id: 1, name: "Touch a doorknob", fearLevel: 3, completed: [], category: "touch" },
+  { id: 1, name: "Putting on a shirt", fearLevel: 3, completed: [], category: "touch" },
   { id: 2, name: "Pet a dog", fearLevel: 4, completed: [], category: "touch" },
   { id: 3, name: "Use a public water fountain", fearLevel: 5, completed: [], category: "public" },
   { id: 4, name: "Eat a snack without washing hands first", fearLevel: 7, completed: [], category: "food" },
